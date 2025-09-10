@@ -9,6 +9,9 @@ const pool = new Pool({
   database: process.env.DB_DATABASE,
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT,
+  ssl: {
+    rejectUnauthorized: false // This is necessary for some cloud providers
+  }
 });
 
 // We export a query function that will be used by our controllers
