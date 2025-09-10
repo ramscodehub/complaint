@@ -3,6 +3,8 @@ const db = require('../db');
 
 // Controller function to create a new complaint
 const createComplaint = async (req, res) => {
+  console.log("BACKEND HIT: A request was received at the 'createComplaint' endpoint.");
+  console.log("Request Body:", req.body);
   try {
     // 1. Destructure the name, email, and complaint from the request body (CORRECTED LINE)
     const { name, email, complaint } = req.body;
