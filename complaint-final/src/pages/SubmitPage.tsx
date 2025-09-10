@@ -71,7 +71,7 @@ const SubmitPage = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors"
-            placeholder="John Doe"
+            placeholder="Ram"
           />
         </div>
 
@@ -85,7 +85,7 @@ const SubmitPage = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none transition-colors"
-            placeholder="you@example.com"
+            placeholder="ram@gmail.com"
           />
         </div>
 
