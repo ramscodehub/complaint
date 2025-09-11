@@ -64,3 +64,4 @@ If I had more time, here are the improvements I would make:
 2.  **Set up Email Alerts:** Use an AWS service like **Amazon SNS (Simple Notification Service)** or **SES (Simple Email Service)**. I would trigger a Lambda function from the `POST /complaints` endpoint to automatically send an email alert to the support team whenever a new complaint is created.
 3.  **Automate the deployment process** with GitHub Actions, so any new code I push goes live automatically.
 4.  **Use a tool like Terraform** to manage the AWS setup. This makes it easier to create or change the cloud setup later on.
+5. **Pagination** Pagination on the backend to make sure the admin page stays fast even with thousands of complaints.
